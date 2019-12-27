@@ -3,9 +3,131 @@
   margin: 0;
   padding: 0;
 }
+a {
+  text-decoration: none;
+  color: #697782;
+}
+
+.btn {
+  padding: 5px 10px;
+  margin-left: 10px;
+  border: 2px solid #A1DE41;
+  border-radius: 3px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.black {
+  border: 2px solid #697782;
+  margin-left: 0;
+}
 body {
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   color: #697782;
   background-color: #fff;
+}
+
+/* Header-top */
+.header-top {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  background-color: #232425;
+  opacity: .9;
+  line-height: 80px;
+  border-bottom: 1px solid grey;
+}
+.header-top-container {
+  width: 80%;
+  margin: 0 auto;
+}
+.header-top-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.header-logo {
+float: left;
+width: 40%;
+}
+.header-logo img {
+  width: 20%;
+}
+.header-nav-bar{
+float: right;
+width: 60%;
+text-align: right;
+}
+.nav-bar li {
+  display: inline-block;
+  list-style: none;
+  padding-left: 10px;
+}
+.nav-bar li a:hover {
+  color: #fff;
+  border-bottom: 2px solid #1FC0ED;
+}
+.nav-bar .menu a:hover {
+  border-bottom: none;
+}
+.nav-bar .btn:hover {
+  background-color: #333535;
+  border-bottom:2px solid #A1DE41;
+  color: #A1DE41;
+}
+.nav-bar .black:hover {
+  border-bottom:2px solid #697782;
+}
+.nav-bar li i {
+  font-size: 8px;
+}
+.humburger {
+  display: none;
+  font-size: 36px;
+  color: #fff;
+}
+/* Header-banner */
+.header-banner {
+  padding-top: 80px;
+  background-color:#232425;
+}
+.text {
+  text-align: center;
+}
+.text h1 {
+  padding-top: 80px;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  color: #fff;
+}
+.text p {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 1.2em;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+.text .btn {
+  padding: 15px 40px;
+}
+.banner-img {
+  text-align: center;
+}
+.banner-img img {
+  padding-top: 80px;
+  height: 60%;
+}
+
+
+
+
+/* Media Queries */
+@media screen and (max-width: 900px) {
+  .nav-bar {
+    display: none;
+  }
+  .humburger {
+    display: block;
+    line-height: 100px;
+    vertical-align: middle;
+  }
 }
