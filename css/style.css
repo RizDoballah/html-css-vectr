@@ -34,7 +34,7 @@ body {
   background-color: #232425;
   opacity: .9;
   line-height: 80px;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #697782;
 }
 .header-top-container {
   width: 80%;
@@ -90,23 +90,23 @@ text-align: right;
   padding-top: 80px;
   background-color:#232425;
 }
-.text {
+.header-banner .text {
   text-align: center;
 }
-.text h1 {
+.banner-text h1 {
   padding-top: 80px;
   margin-bottom: 20px;
   font-size: 2.5em;
   color: #fff;
 }
-.text p {
+.banner-text p {
   width: 60%;
   margin: 0 auto;
   font-size: 1.2em;
   line-height: 24px;
   margin-bottom: 40px;
 }
-.text .btn {
+.banner-text .btn {
   padding: 15px 40px;
 }
 .banner-img {
@@ -116,8 +116,78 @@ text-align: right;
   padding-top: 80px;
   height: 60%;
 }
+/* Main */
+/* Main-logo */
+.logos {
+  list-style: none;
+  display: flex;
+  align-content: center;
+  text-align: center;
+  border-bottom: 1px solid #697782;
 
+}
+.logos li {
+  flex-basis: calc(100% / 5);
+}
+.logos li img {
+padding: 10px;
+margin-top: 10px;
+width: 45%;
+}
+.logos li .net {
+  width: 20%;
+  border-radius: 50%;
 
+}
+/* learning */
+.learning {
+padding-top: 80px;
+}
+.Learning::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.learning-text {
+  float: left;
+  width: 30%;
+  margin-left: 8%;
+  margin-top: 150px;
+}
+.learning-text img {
+  margin-right: 15px;
+  width: 8%;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.learning-text h2 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: #414A4D;
+  font-size: 2em;
+}
+.learning-text p {
+  font-size: 1.2em;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+.learning-text a {
+  font-weight: bold;
+  color: #57CFF1;
+  border-bottom: 2px solid #57CFF1;
+}
+.learning-text a i {
+  font-size: 10px;
+  font-weight: bold;
+}
+.learning-img {
+  float: right;
+  width: 55%;
+}
+.learning-img img {
+width: 100%;
+margin-top: 80px;
+}
 
 
 /* Media Queries */
