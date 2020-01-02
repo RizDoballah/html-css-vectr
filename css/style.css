@@ -90,7 +90,7 @@ text-align: right;
   padding-top: 80px;
   background-color:#232425;
 }
-.header-banner .text {
+.banner-text {
   text-align: center;
 }
 .banner-text h1 {
@@ -124,7 +124,6 @@ text-align: right;
   align-content: center;
   text-align: center;
   border-bottom: 1px solid #697782;
-
 }
 .logos li {
   flex-basis: calc(100% / 5);
@@ -137,57 +136,212 @@ width: 45%;
 .logos li .net {
   width: 20%;
   border-radius: 50%;
-
 }
 /* learning */
-.learning {
+#learning {
 padding-top: 80px;
 }
-.Learning::after {
+.container::after {
   content: "";
   display: table;
   clear: both;
 }
-.learning-text {
+.text {
   float: left;
   width: 30%;
   margin-left: 8%;
   margin-top: 150px;
 }
-.learning-text img {
+.text img {
   margin-right: 15px;
   width: 8%;
   border-radius: 50%;
   vertical-align: middle;
 }
-.learning-text h2 {
+.text h2 {
   margin-top: 10px;
   margin-bottom: 30px;
   color: #414A4D;
   font-size: 2em;
 }
-.learning-text p {
+.text p {
   font-size: 1.2em;
   line-height: 24px;
   margin-bottom: 15px;
 }
-.learning-text a {
+.text a {
   font-weight: bold;
   color: #57CFF1;
   border-bottom: 2px solid #57CFF1;
 }
-.learning-text a i {
+.text a i {
   font-size: 10px;
   font-weight: bold;
 }
-.learning-img {
+.img {
   float: right;
   width: 55%;
 }
-.learning-img img {
+.img img {
 width: 100%;
 margin-top: 80px;
 }
+/* Sharing */
+#sharing {
+  padding-top: 80px;
+  background-color: #232425;
+}
+#sharing .text img {
+  width: 6%;
+  padding: 3px;
+  border: 2px solid #6E7BC7;
+  border-radius: 0;
+}
+#sharing h2 {
+  color: #ECEEEF;
+}
+#sharing .img img {
+  width: 85%;
+  margin-top: 250px;
+  margin-left: 40px;
+}
+/* Graphics  */
+#graphics {
+  padding-top: 80px;
+}
+#graphics .img img {
+  margin-top: 300px;
+  padding: 10px;
+  width: 45%;
+}
+/* Platform  */
+#platform {
+  margin-top: -15px;
+  padding-bottom: 80px;
+  border: 1px solid #546DFB;
+  border-bottom: 3px solid #546DFB;
+  text-align: center;
+}
+#platform .container {
+
+}
+#platform .free {
+  float: left;
+  width: 50%;
+}
+#platform .cross {
+  float: right;
+  width: 50%;
+}
+#platform h3 {
+  margin-top: 40px;
+  margin-bottom: 25px;
+  color: #3B4447;
+  font-size: 1.5em;
+}
+#platform p {
+  width: 80%;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  line-height: 24px;
+}
+#platform h6 {
+  font-size: .8em;
+}
+
+/* Footer */
+/* Footer-top */
+.footer-top {
+  height: 300px;
+  background-color: #1E2223;
+  border-bottom: 1px solid #697782;
+}
+/* Footer-menu */
+.footer-menu {
+  height: 320px;
+  background-color: #1E2122;
+  border-top: 3px solid #1C1D1D;
+  border-bottom: 3px solid #1C1D1D;
+}
+.footer-menu .container-flex {
+  display: flex;
+}
+.footer-menu ul {
+  padding: 40px 80px;
+  line-height: 26px;
+  list-style: none;
+}
+.footer-menu ul li:first-child  {
+  color: #BAC9D1;
+  font-weight: bold;
+}
+.footer-menu ul li a:hover {
+  opacity: .5;
+}
+.footer-btn {
+  padding: 15px;
+  margin-left: 80px;
+  background-color: #242A2D;
+  border: 2px solid #3E535E;
+  border-radius: 25px;
+}
+.footer-btn  span {
+  padding-left: 15px;
+  padding-right: 100px;
+  color:#BAC9D1;
+  font-weight: bold;
+}
+.footer-btn i {
+  font-size: 18px;
+  vertical-align: text-top;
+}
+/* Footer-bottom */
+.footer-bottom {
+  height: 50px;
+  background-color:  #1E2122;
+}
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer-logos {
+  float: left;
+  width: 85%;
+}
+.footer-logos h6 {
+  display: inline-block;
+  font-size: .9em;
+  font-weight: normal;
+  padding-right: 15px;
+  line-height: 50px;
+}
+.footer-logos a img {
+  height: 17px;
+  padding-right: 15px;
+  vertical-align: middle;
+  opacity: .4;
+}
+.footer-logos .rf img  {
+  height: 12px;
+}
+.footer-logos .design img,
+.footer-logos .su img  {
+  height: 15px;
+}
+
+.copyright {
+  float: right;
+  width: 15%;
+  text-align: right;
+  font-size: .9em;
+  line-height: 50px;
+}
+
 
 
 /* Media Queries */
