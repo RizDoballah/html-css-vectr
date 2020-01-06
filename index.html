@@ -15,7 +15,7 @@
     <!-- Header -->
     <header>
       <!-- Header-top -->
-      <section class="header-top">
+      <div class="header-top">
         <div class="header-top-container">
           <div class="header-logo">
             <img src="img/vectorlogo.svg" alt="logo">
@@ -32,10 +32,11 @@
             </ul>
           </div>
         </div>
-      </section>
+      </div>
+
       <!-- /Header-top -->
       <!-- Banner -->
-      <section class="header-banner">
+      <div class="header-banner">
         <div class="banner-text">
           <h1>Free Vector Graphics Software</h1>
           <p>Vectr is a free graphics software used to create vector graphics easily and intuitively. It's a simple yet powerful web and desktop cross-platform tool to bring your designs into reality.</p>
@@ -44,7 +45,7 @@
         <div class="banner-img">
           <img src="img/jumbo.png" alt="jumbo image">
         </div>
-      </section>
+      </div>
       <!-- /Banner -->
     </header>
     <!-- /Header -->
@@ -52,13 +53,13 @@
     <!-- Main -->
     <main>
       <!-- Main-logo -->
-      <section class="main-logo">
+      <section id="main-logo">
         <ul class="logos">
-          <li><a href="#"><img src="img/producthunt.png" alt="logo"></a></li>
-          <li><a href="#"><img src="img/Lifehacker.png" alt="logo"></a></li>
-          <li><a href="#"><img src="img/forbes.png" alt="logo"></a></li>
+          <li><a href="#"><img src="img/hunt.jpg" alt="logo"></a></li>
+          <li><a href="#"><img class="lifeh" src="img/lifeh.jpg" alt="logo"></a></li>
+          <li><a href="#"><img src="img/forbes.jpg" alt="logo"></a></li>
           <li><a href="#"><img class="net" src="img/net.jpg" alt="logo"></a></li>
-          <li><a href="#"><img src="img/tech.png" alt="logo"></a></li>
+          <li><a href="#"><img class="tech" src="img/tech.jpg" alt="logo"></a></li>
         </ul>
       </section>
       <!-- /Main-logo -->
@@ -66,7 +67,7 @@
       <section id="learning">
         <div class="container">
           <div class="text">
-            <img src="img/cherry.jpg" alt="symbol"><span>Low Learning Curve</span>
+            <img src="img/books.png" alt="symbol"><span>Low Learning Curve</span>
             <h2>Quick to Learn, Easy to Use</h2>
             <p>Get started immediately without the massive learning curve. Vectr’s intuitive tools let you focus on what truly matters - creating beautiful graphic designs.</p>
             <a href="#">Tutorials <i class="fas fa-chevron-right"></i></a>
@@ -103,8 +104,15 @@
             <a href="#">About Vector Graphics <i class="fas fa-chevron-right"></i></a>
           </div>
           <div class="img">
-            <img src="img/raster.png" alt="image share-by-url">
-            <img src="img/raster.png" alt="image share-by-url">
+            <div class="container-img">
+              <div class="loupe"></div>
+              <a href="#" class="graphics-btn">Vector</a>
+            </div>
+            <div class="space"></div>
+            <div class="container-img">
+              <div class="loupe"></div>
+              <a href="#" class="graphics-btn">Raster</a>
+            </div>
           </div>
       </div>
       </section>
@@ -133,7 +141,6 @@
     <footer>
       <!-- Footer-top -->
       <div class="footer-top">
-
       </div>
       <!-- /Footer-top -->
       <!-- Footer-menu -->
@@ -176,9 +183,9 @@
         <div class="container">
           <div class="footer-logos">
             <h6> Part of the Inmage Group:</h6>
-            <a  class="rf"href="#"><img src="img/123rf.png" alt="logo"></a>
+            <a  class="rf" href="#"><img src="img/123rf.png" alt="logo"></a>
             <a href="#"><img src="img/pix.png" alt="logo"></a>
-            <a  class="design"href="#"><img src="img/designs.png" alt="logo"></a>
+            <a  class="design" href="#"><img src="img/designs.png" alt="logo"></a>
             <a class="su" href="#"><img src="img/su.png" alt="logo"></a>
             <a href="#"><img src="img/thj.png" alt="logo"></a>
             <a href="#"><img src="img/craft.png" alt="logo"></a>
@@ -187,13 +194,9 @@
           </div>
           <div class="copyright">© Vectr Labs Inc. 2019</div>
         </div>
+        <a href="#" class="footer-bottom-btn"><i class="fas fa-cog"></i><span>Privacy</span></a>
       </div>
-
-
-
-
       <!-- /Footer-bottom -->
-
     </footer>
     <!-- /Footer -->
 
